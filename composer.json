@@ -1,0 +1,29 @@
+{
+  "name": "tourze/phpunit-enum",
+  "description": "",
+  "type": "library",
+  "homepage": "https://github.com/tourze/phpunit-enum",
+  "license": "MIT",
+  "require": {
+    "composer-runtime-api": "^2.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^2.1",
+    "phpunit/phpunit": "^11.5",
+    "tourze/enum-extra": "0.1.*",
+    "tourze/phpunit-base": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tourze\\PHPUnitEnum\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tourze\\PHPUnitEnum\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "release-version": "0.1.*"
+  }
+}
